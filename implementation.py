@@ -12,3 +12,7 @@ pd_to_gif(data,['x','y','z'],'example_gif_2','colors')
 # example 3
 data = pd.read_excel('example3.xlsx', index_col=0)
 pd_to_gif(data,['x','y','z'],'example_gif_3','colors')
+
+# example 4
+data = pd.read_excel('example4.xlsx', index_col=0)
+pd_to_gif(data,['x','y','z'],'example_gif_4','colors')
