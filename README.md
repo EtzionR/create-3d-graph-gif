@@ -8,13 +8,13 @@ Also, since the output is based on a GIF file, it can be shared with people who 
 
 ## libraries
 The code uses the following libraries in Python:
-# matplotlib
-# imageio
-# pandas
+**matplotlib**
+**imageio**
+**pandas**
 
 ## application
 An application of the code is attached to this page under the name: 
-# "implementation.py". 
+**"implementation.py"** 
 the examples outputs are also attached here.
 
 ## Using the code
@@ -22,9 +22,9 @@ To use this code, you just need to import it as follows:
 ``` sh
 # import
 from create_3d_gif import pd_to_gif
-from pandas import read_csv as read
+from pandas import read_csv
 
-data= csv(r'path\file.csv')
+data= read_csv(r'path\file.csv')
 xyz = ["x","y","z"]
 name= "my_gif" # you not need to add ".gif"
 clrs= "colors"
