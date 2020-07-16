@@ -8,6 +8,7 @@ Also, since the output is based on a GIF file, it can be shared with people who 
 
 ## libraries
 The code uses the following libraries in Python:
+
 **matplotlib**
 
 **imageio**
@@ -16,6 +17,7 @@ The code uses the following libraries in Python:
 
 ## application
 An application of the code is attached to this page under the name: 
+
 **"implementation.py"** 
 the examples outputs are also attached here.
 
@@ -37,9 +39,13 @@ pd_to_gif(data ,xyz ,name ,clrs=None)
 ```
 
 When the variables displayed are:
+
 **data:** pandas dataframe object.
+
 **xyz:** simple list that contain 3 strings. each one of them is column name inside **"data"** that you want to use it as one of your axis.
+
 **name:** string which represents the filename of the GIF you want to save
+
 **clrs:** optional. simple string of colors column in **"data"**. this allow to you created Colorful and varied outputs. If you do not enter this variable, all entities will be **blue** by default
 
 
