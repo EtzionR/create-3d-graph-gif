@@ -9,7 +9,9 @@ Also, since the output is based on a GIF file, it can be shared with people who 
 ## libraries
 The code uses the following libraries in Python:
 **matplotlib**
+
 **imageio**
+
 **pandas**
 
 ## application
@@ -24,11 +26,13 @@ To use this code, you just need to import it as follows:
 from create_3d_gif import pd_to_gif
 from pandas import read_csv
 
+# define variables
 data= read_csv(r'path\file.csv')
 xyz = ["x","y","z"]
 name= "my_gif" # you not need to add ".gif"
 clrs= "colors"
 
+# application
 pd_to_gif(data ,xyz ,name ,clrs=None)
 ```
 
