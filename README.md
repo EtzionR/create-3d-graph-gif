@@ -37,7 +37,7 @@ name= "my_gif" # you not need to add ".gif"
 clrs= "colors"
 
 # application
-pd_to_gif(data ,xyz ,name ,clrs=None)
+pd_to_gif(data ,xyz ,name ,clrs)
 ```
 
 When the variables displayed are:
