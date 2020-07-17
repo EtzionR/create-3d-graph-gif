@@ -40,7 +40,7 @@ clrs= "colors"
 pd_to_gif(data ,xyz ,name ,clrs)
 ```
 
-When the variables displayed are:
+## variables
 
 **data:** pandas dataframe object.
 
