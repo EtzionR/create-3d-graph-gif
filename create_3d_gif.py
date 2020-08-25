@@ -16,9 +16,7 @@ def wide_perspective(plt,ax,fr):
 def create_3d_graph(x,y,z,colors,fr=36):
     fig= plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-    for i in range(len(x)):
-        ax.scatter(x[i], y[i], z[i], marker='.', color=colors[i])
-
+    ax.scatter(x, y, z, marker='.', color=colors)
     ax.set_xlabel('X axis')
     ax.set_ylabel('Y axis')
     ax.set_zlabel('Z axis')
