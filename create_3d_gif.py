@@ -13,13 +13,14 @@ def wide_perspective(plt,ax,fr):
         ang += pls
     return png
 
-def create_3d_graph(x,y,z,colors,fr=36):
-    fig= plt.figure()
+def create_3d_graph(x,y,z,colors,fr=36,name=''):
+    fig= plt.figure(figsize=(7, 5))
     ax = fig.add_subplot(111, projection='3d')
     ax.scatter(x, y, z, marker='.', color=colors)
     ax.set_xlabel('X axis')
     ax.set_ylabel('Y axis')
     ax.set_zlabel('Z axis')
+    ax.set_title(name+"\n")
     return wide_perspective(plt,ax,fr)
 
 def create_gif(img_lst, name):
@@ -42,6 +43,6 @@ def pd_to_gif(data ,xyz ,name ,clrs=None):
     x, y, z = list(data[xyz[0]]), list(data[xyz[1]]), list(data[xyz[2]])
     clrs = list(data[clrs]) if clrs != None else ['blue']*len(x)
 
-    lst = create_3d_graph(x, y, z, colors=clrs, fr=36)
+    lst = create_3d_graph(x, y, z, colors=clrs, fr=36,name=name)
     create_gif(lst, name)
     clean_workspace(lst)
