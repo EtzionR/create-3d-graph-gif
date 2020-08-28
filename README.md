@@ -6,7 +6,9 @@ Gets a three-dimensional dataframe and create a GIF of a three-dimensional graph
 
 In order to overcome these gaps, the code here is designed to create GIFs from 3D data. The simple code allows you to enter a pandas dataframe object, and create a GIF output. The code allows the creation of a three-dimensional output that scans the data from any direction and creates for the viewer a feeling that it is indeed a three-dimensional display.
 
-Also, since the output is based on a GIF file, it can be shared with people who do not have any sophisticated software. You can even transfer it via your mobile phone or share it on social networks.
+Also, since the output is based on a GIF file, it can be shared with people who do not have any sophisticated software. You can even transfer it via your mobile phone or share it on social networks. Example of one from the outputs:
+
+[example](https://github.com/EtzionData/create-3d-graph-gif/blob/master/example_gif_1.gif)
 
 ## libraries
 The code uses the following libraries in Python:
