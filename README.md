@@ -1,5 +1,5 @@
 ## create-3d-graph-gif
-Gets a three-dimensional dataframe and create a GIF of a three-dimensional graph base on the data
+Gets a three-dimensional dataframe and create a GIF of a three-dimensional graph base on the data.
 
 ## introduction
 3D plots are a significant tool for performing data visualization. At the same time, the main problem with these plots, is that they are usually limited to a very specific angle, and present a three-dimensional reality in a two-dimensional format. Also, standard 3D display methods are usually more complex and sometimes even require complex software and additional installations for those viewing the information.
