@@ -52,4 +52,6 @@ pd_to_gif(data ,xyz ,name ,clrs)
 
 **clrs:** optional. simple string of colors column in **"data"**. this allow to you created Colorful and varied outputs. If you do not enter this variable, all entities will be **blue** by default
 
+## License
+MIT © [Etzion Harari](https://github.com/EtzionData)
 
