@@ -1,7 +1,7 @@
-## create-3d-graph-gif
+## Create-3d-graph-gif
 Gets a three-dimensional dataframe and create a **GIF** of a three-dimensional graph base on the data.
 
-## introduction
+## Introduction
 3D plots are a significant tool for performing **data visualization**. At the same time, the main problem with these plots, is that they are usually limited to a very specific angle, and present a three-dimensional reality in a two-dimensional format. Also, standard 3D display methods are usually more complex and sometimes even require complex software and additional installations for those viewing the information.
 
 In order to overcome these gaps, the code here is designed to create GIFs from **3D** data. The simple code allows you to enter a pandas dataframe object, and create a GIF output. The code allows the creation of a three-dimensional output that scans the data from any direction and creates for the viewer a feeling that it is indeed a three-dimensional display.
@@ -10,7 +10,7 @@ Also, since the output is based on a GIF file, it can be shared with people who 
 
 ![example](https://github.com/EtzionData/create-3d-graph-gif/blob/master/Picture/example.gif)
 
-## libraries
+## Libraries
 The code uses the following libraries in Python:
 
 **matplotlib**
@@ -19,7 +19,7 @@ The code uses the following libraries in Python:
 
 **pandas**
 
-## application
+## Application
 An application of the code is attached to this page under the name: 
 
 [**"implementation.py"**](https://github.com/EtzionData/create-3d-graph-gif/blob/master/implementation.py)
@@ -43,7 +43,7 @@ clrs= "colors"
 pd_to_gif(data ,xyz ,name ,clrs)
 ```
 
-## variables
+## Variables
 
 **data:** pandas dataframe object.
 
