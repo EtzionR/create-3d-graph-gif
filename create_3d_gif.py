@@ -1,3 +1,7 @@
+# Create by Etzion Harari
+# https://github.com/EtzionR
+
+# Load libraries:
 import matplotlib.pyplot as plt
 import imageio as img
 from os import remove
@@ -46,3 +50,5 @@ def pd_to_gif(data ,xyz ,name ,clrs=None):
     lst = create_3d_graph(x, y, z, colors=clrs, fr=36,name=name)
     create_gif(lst, name)
     clean_workspace(lst)
+
+# MIT © Etzion Harari
