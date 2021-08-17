@@ -51,4 +51,5 @@ def pd_to_gif(data ,xyz ,name ,clrs=None):
     create_gif(lst, name)
     clean_workspace(lst)
 
+# License
 # MIT © Etzion Harari
